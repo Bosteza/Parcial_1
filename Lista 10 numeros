@@ -1,26 +1,25 @@
 Lista 1-10
 
-#include<stdio.h>
-#include<math.h>
-
 int main()
 {
 
-	int contador=0; 
-	printf ("Pon un numerito:");
-    scanf ("%d",&contador);
-    while( contador<=10){
-    printf("%d\n",contador);
-    contador++;
-   
-  }
+  
+    int num_inicial, num_final; 
+    
+    printf("Pon un número\n");
+    scanf("%d", &num_inicial);
 
-    	return 0;
-}
+    
+    num_final = num_inicial + 10;
 
 
+    while (num_inicial <= num_final)
+    {
+        printf("%d", num_inicial);
+        printf("\n");
+        num_inicial++;
+    }
+    
 
-
-
-	return 0;
+    return 0;
 }
