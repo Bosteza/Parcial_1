@@ -1,0 +1,21 @@
+int main()
+{
+
+    int num_inicial, num_final, valor; 
+    
+    printf("Número de la tabla: \n");
+    scanf("%d", &valor);
+
+    num_inicial = 0;
+    num_final = 10;
+
+    while (num_inicial <= num_final)
+    {
+        printf("%d", num_inicial*valor);
+        printf("\n");
+        num_inicial++;
+    }
+    
+
+    return 0;
+}
