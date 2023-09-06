@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+int main()
+{
+
+
+    int num_inicial = 1;
+    
+    while (num_inicial >= 0)
+    {
+        printf("Ingresa un número: ");
+        scanf("%d", &num_inicial);
+    }
+    
+
+    return 0;
+}
