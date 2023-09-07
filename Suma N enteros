@@ -1,3 +1,4 @@
+Este programa suma N enteros
 #include<stdio.h>
 
 int main()
