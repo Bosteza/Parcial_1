@@ -1,3 +1,4 @@
+Este programa recibe numeros y se detiene hasta recibir uno negativo
 #include<stdio.h>
 
 int main()
