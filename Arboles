@@ -20,8 +20,9 @@ int main()
         ++a;
         break;
                 }
-    while( a<100)
-                { 
+    while( a<100){
+    
+                 
 		printf (
        
         "\t\t    ........\n"
@@ -29,6 +30,7 @@ int main()
         "\t\t       ...\n"
         "\t\t        *\n");
         --a;
-        break;
+   		break;
+   	}
 		
 		}
