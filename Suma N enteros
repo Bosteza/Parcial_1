@@ -1,0 +1,25 @@
+#include<stdio.h>
+
+int main()
+{
+
+  
+    int num_inicial, num_final; 
+    
+    printf("Pon un número\n");
+    scanf("%d", &num_inicial);
+
+    num_final=(num_inicial*(num_inicial-1))/2;
+    
+
+    
+    printf("%d", num_final);
+    printf("\n");
+    
+     
+        
+    
+    
+
+    return 0;
+}
